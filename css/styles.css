@@ -27,6 +27,7 @@ p {
 
 a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 ul {
@@ -104,6 +105,21 @@ h1 {
 
 .call-txt-box {
   width: 45%;
+}
+
+.png-set {
+  display: flex;
+  gap: 6%;
+  margin: 15px 10%;
+}
+
+.png-box {
+  width: 30px;
+}
+
+.call-txt {
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .call-img-box {
