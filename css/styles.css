@@ -65,6 +65,12 @@ section {
   overflow: hidden;
 }
 
+h2 {
+  color: var(--text-color);
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
 /* header */
 
 /* Hero */
@@ -126,7 +132,44 @@ h1 {
   width: 45%;
 }
 
-/* Our Team */
+/* For whom */
+
+.audience {
+  background-color: var(--light-color);
+}
+
+.audience-about {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.audience-list {
+  display: flex;
+  gap: 10px;
+}
+
+.audience-item {
+  border: 1px solid rgba(51, 58, 83, 0.4);
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px 0px rgba(51, 58, 83, 0.08),
+    0px 1px 1px 0px rgba(51, 58, 83, 0.16),
+    0px 2px 1px 0px rgba(51, 58, 83, 0.08);
+  padding: 18px 15px;
+  text-align: center;
+  flex-basis: calc((100% - 10px) / 6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.audience-item:hover {
+  background-color: #b9fc03;
+}
+
+.audience-txt {
+  margin-top: 10px;
+  font-size: 14px;
+}
 
 /* Customers */
 
