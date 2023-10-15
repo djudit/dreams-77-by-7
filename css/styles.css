@@ -1,11 +1,11 @@
 :root {
   --accent-color: #b9fc03;
+  --success-color: #fce736;
   --dark-color: #333a53;
   --light-color: #ecf8dc;
   --text-color: #121624;
 
   --pressed-state-color: #404bbf;
-  --success-color: #31d0aa;
   --subtle-text-color: #8e8f99;
   --hero-background-color: #2e2f42;
   --white-background-color: #fff;
@@ -160,10 +160,12 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: background-color 300ms ease;
 }
 
 .audience-item:hover {
-  background-color: #b9fc03;
+  background-color: var(--success-color);
+  border-color: transparent;
 }
 
 .audience-txt {
